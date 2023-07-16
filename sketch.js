@@ -5,7 +5,7 @@ function preload() {
 
   function setup () {
 noCanvas();
-    console.log(txt);
+    // console.log(txt);
     createP(txt);
   
   }
