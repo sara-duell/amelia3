@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document ).ready(function() {
   console.log( "the html has loaded and my script file is properly loaded into my website code" );
 
   var videos =["tree.mp4","water.mp4"];
