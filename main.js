@@ -10,17 +10,17 @@ $(document ).ready(function() {
   if(n <= 11)
   {console.log("It's the morning!")
     var yourElement = document.getElementById('videorotator');
-  yourElement.setAttribute( 'src', "tree.mp4"); }
+  yourElement.setAttribute( 'src', "water3.mp4"); }
 
 if(n >= 12 && n < 15)
 {console.log("It's the afternoon!")
   var yourElement = document.getElementById('videorotator');
-yourElement.setAttribute( 'src', "water.mp4"); }
+yourElement.setAttribute( 'src', "water3.mp4"); }
 
 if(n >= 15)
 {console.log("the time that my code detected is what i am calling an evening time!")
 var yourElement = document.getElementById('videorotator');
-yourElement.setAttribute( 'src', "water.mp4"); }
+yourElement.setAttribute( 'src', "water3.mp4"); }
 
 //   var morning = "tree.mp4";
 //   var afternoon = "water.mp4";
