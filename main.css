@@ -20,7 +20,7 @@ body {
   grid-area: 1 / 1;
 }
 
-#text{
+.text{
     width:25%;
   margin-top: 5%;
   margin-left: 15%;
