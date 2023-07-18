@@ -9,5 +9,5 @@ noCanvas();
 let elt = document.getElementById('text');
 let intro = createP(join (txt, "<br/>"));
 intro.parent(elt);
-    
+   console.log(intro) 
   }
