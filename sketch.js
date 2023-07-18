@@ -7,7 +7,7 @@ function preload() {
 noCanvas();
     // console.log(txt);
 let elt = document.getElementById('text');
-let intro = createDiv(join (txt, "<br/>"));
+let intro = createP(join (txt, "<br/>"));
 intro.parent(elt);
     
   }
