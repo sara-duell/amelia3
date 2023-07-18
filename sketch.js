@@ -6,6 +6,7 @@ function preload() {
   function setup () {
 noCanvas();
     // console.log(txt);
-    createP(join (txt, "<br/>"));
-  
+  let c = createP(join (txt, "<br/>"));
+  c.parent('text');
+    
   }
