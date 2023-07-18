@@ -16,22 +16,30 @@ p {
   font-size: 1em;
 }
 
-.wrapper {
-  display: grid;
-}
-.video, .text {
-  grid-area: 1 / 1;
-}
+ .video {
+        position: absolute;
+        left: 0;
+        top: 0;
+         /*  Change the two values below to meet your requirements  */
+        width: 50vw; 
+        height: 100vh;
+    }
+    
+    .video iframe {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+    }
+    
+/* If you want the overlay text style it here */
 
-.text{
-  margin-top: 5%;
-  margin-left: 15%;
-  margin-right: 15%;
-  color: blueviolet;
-}
-
-#videorotator{
-  position:relative;
-  width:100%;
-  
+.video .overlay {
+    font-size: 35px;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
