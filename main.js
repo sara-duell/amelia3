@@ -1,7 +1,7 @@
 $(document ).ready(function() {
   console.log( "the html has loaded and my script file is properly loaded into my website code" );
 
-  var videos =["tree.mp4","water.mp4"];
+  var videos =["https://vimeo.com/846374116","water.mp4"];
   var d = new Date();
   var n = d.getHours()
   
@@ -10,17 +10,17 @@ $(document ).ready(function() {
   if(n <= 11)
   {console.log("It's the morning!")
     var yourElement = document.getElementById('videorotator');
-  yourElement.setAttribute( 'src', "water3.mp4"); }
+  yourElement.setAttribute( 'src', "https://vimeo.com/846374116"); }
 
 if(n >= 12 && n < 15)
 {console.log("It's the afternoon!")
   var yourElement = document.getElementById('videorotator');
-yourElement.setAttribute( 'src', "water3.mp4"); }
+yourElement.setAttribute( 'src', "https://vimeo.com/846374116"); }
 
 if(n >= 15)
 {console.log("the time that my code detected is what i am calling an evening time!")
 var yourElement = document.getElementById('videorotator');
-yourElement.setAttribute( 'src', "water3.mp4"); }
+yourElement.setAttribute( 'src', "https://vimeo.com/846374116"); }
 
 //   var morning = "tree.mp4";
 //   var afternoon = "water.mp4";
