@@ -21,8 +21,8 @@ p {
         left: 0;
         top: 0;
          /*  Change the two values below to meet your requirements  */
-        width: 100%; 
-        height: 100%;
+        width: 300%; 
+        height: 300%;
     }
     
     .video iframe {
