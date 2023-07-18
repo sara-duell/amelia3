@@ -11,6 +11,10 @@ body {
   text-align: center;
   font-size: 2em;
 }
+p {
+  text-align: center;
+  font-size: 12em;
+}
 
 .wrapper {
   display: grid;
@@ -20,7 +24,6 @@ body {
 }
 
 .text{
-    width:25%;
   margin-top: 5%;
   margin-left: 15%;
   margin-right: 15%;
