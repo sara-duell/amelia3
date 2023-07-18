@@ -18,6 +18,7 @@ p {
 
  .video {
         position: absolute;
+     z-index: 1;
         left: 0;
         top: 0;
          /*  Change the two values below to meet your requirements  */
