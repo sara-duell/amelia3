@@ -34,7 +34,7 @@ p {
     
 /* If you want the overlay text style it here */
 
-.video .overlay {
+.video .text {
     font-size: 35px;
     position: absolute;
     text-align: center;
