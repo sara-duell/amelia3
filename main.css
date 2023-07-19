@@ -4,7 +4,6 @@ body,html{
     margin: 0;
     padding: 0;
     border: 0;
-    overflow:hidden;
 }
 
 body {
@@ -16,23 +15,6 @@ p {
   font-size: 1em;
 }
 
- .video {
-        position: absolute;
-     z-index: 1;
-        left: 0!improtant;
-        top: 0;
-         /*  Change the two values below to meet your requirements  */
-        width: 100%!important; 
-     height: 100%;
-    }
-    
-    .video iframe {
-        position: absolute;
-        z-index: 1;
-        left: 0!improtant;
-        top: 0;
-        width: 100%!important;
-    }
     
 /* If you want the overlay text style it here */
 
@@ -40,9 +22,10 @@ p {
     font-size: 1em;
     position: absolute;
     text-align: center;
-    margin:10%;
+    margin-left:20%;
+    margin-right:20%;
     z-index: 2;
     left: 0;
     top: 0;
-    width: 75%;
+    width: 100%;
 }
