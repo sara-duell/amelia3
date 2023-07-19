@@ -28,3 +28,37 @@ p {
     top: 0;
     height:100%;
 }
+
+
+@media screen and (max-width: 800px) {
+    .text {
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:5%;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    height:100%;
+}
+
+}
+
+@media screen and (max-width: 376px) {
+     .text {
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:5%;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    height:100%;
+}
+}
+
+
