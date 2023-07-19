@@ -20,7 +20,7 @@ p {
 /* If you want the overlay text style it here */
 
 .text {
-    font-size: 15px;
+    font-size: 35px;
     position: absolute;
     text-align: center;
     margin-left:20%;
