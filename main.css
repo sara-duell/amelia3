@@ -20,9 +20,7 @@ p {
     font-size: 30px;
     position: absolute;
     text-align: center;
-    margin-left:20%;
-    margin-right:20%;
-    margin-top:5%;
+    margin: auto;
     z-index: 2;
     left: 0;
     top: 0;
