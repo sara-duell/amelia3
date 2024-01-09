@@ -1,2 +1,2 @@
 Amelia Schonbek is a writer and editor who lives in New York. <br/>
-You can reach her at ameliaschonbek@gmail.com <a href="mailto:ameliaschonbek@gmail.com>ameliaschonbek@gmail.com</a>.
+You can reach her at ameliaschonbek@gmail.com <a href="mailto:ameliaschonbek@gmail.com">ameliaschonbek@gmail.com</a>.
